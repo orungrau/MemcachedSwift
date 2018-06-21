@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "libMemcachedSwift",
+        "repositoryURL": "https://github.com/orungrau/libMemcachedSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "b188a601f1d2111e87f1e76354acc4fbcd4942fe",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
