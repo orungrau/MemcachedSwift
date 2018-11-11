@@ -1,8 +1,15 @@
-# MemcachedSwift
-
-In dev
+# SwiftMemcached
 
 !!! Does not work for classes
+
+## Installation
+
+Modify your Package.swift file to include the following dependency:
+    
+```Swift
+    .package(url: "https://github.com/orungrau/SwiftMemcached.git", .upToNextMinor(from: "0.0.1"))
+```
+You should also include “**MemcachedSwift**” in your list of target dependencies.
 
 ## Use
 ```Swift
@@ -25,3 +32,4 @@ do {
 } catch let error {
     print(error.localizedDescription)
 }
+```
